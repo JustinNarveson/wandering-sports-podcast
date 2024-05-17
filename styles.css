@@ -1,0 +1,72 @@
+header{
+    background-color: #593D3B;
+    color: #FF4E00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+nav>a{
+    color: #FF4E00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 1px;
+}
+nav>a:hover{
+    color: #8B9556;
+}
+main{
+    color: #593D3B;
+    background-color: #8B9556;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+p{
+font-size: larger;
+}
+img{
+    max-width: 435px;
+}
+label{
+    display: block;
+    padding: .5rem;
+}
+form{
+    padding: 1rem;
+    background-color: #8B9556;
+}
+@media (min-width: 700px){
+    p{
+        text-align: center
+    }
+    #youtube img{
+        position: relative;
+        left: 23%;
+    }
+    #youtube iframe{
+        position: relative;
+        left: 25%;
+    }
+    #social img{
+        position: relative;
+        left: 23%;
+        padding: 1rem;
+    }
+    form{
+        position: relative;
+        left:43%;
+    }
+    #listen img{
+        position: relative;
+        left: 23%;
+        padding: 1rem;
+    }
+    #home img{
+        position: relative;
+        left: 37%;
+    }
+    
+}
